@@ -1,0 +1,28 @@
+html{
+  font-size: 16px;
+
+}
+
+body{
+  font-family: 'Playfair Display', serif;
+}
+
+.jumbotron{
+  background-image: url(../images/pexels-photo-247676.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+#protfolio{
+  background-color: hsla(221, 89%, 35%, .2);
+}
+
+footer{
+  color: white;
+  background-image: url(../images/pexels-photo-247676.jpeg);
+  background-position: center;
+  background-attachment: fixed;
+  padding: 2rem;
+}
