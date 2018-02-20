@@ -1,3 +1,4 @@
+/*universal css*/
 html{
   font-size: 16px;
 
@@ -6,7 +7,11 @@ html{
 body{
   font-family: 'Playfair Display', serif;
 }
-
+/*navbar*/
+#navbarNavDropdown{
+  justify-content: flex-end;
+}
+/*jumbotron*/
 .jumbotron{
   background-image: url(../images/pexels-photo-247676.jpeg);
   background-position: center;
@@ -14,11 +19,27 @@ body{
   color: white;
   text-align: center;
 }
-
+/*projects section*/
 #protfolio{
-  background-color: hsla(221, 89%, 35%, .2);
+  background-color: hsla(221, 89%, 35%, .1);
 }
 
+/*contact info*/
+.fa-envelope,
+.fa-rebel,
+.fa-github,
+.fa-facebook{
+  color: black;
+}
+
+.fa-envelope:hover,
+.fa-rebel:hover,
+.fa-github:hover,
+.fa-facebook:hover{
+  color: gray;
+  transition-duration: 500ms;
+}
+/*footer section*/
 footer{
   color: white;
   background-image: url(../images/pexels-photo-247676.jpeg);
