@@ -47,3 +47,8 @@ footer{
   background-attachment: fixed;
   padding: 2rem;
 }
+
+/*about me page*/
+#broken{
+  text-align: center;
+}
