@@ -24,6 +24,11 @@ body{
   background-color: hsla(221, 89%, 35%, .1);
 }
 
+#protfolio-img:hover{
+  opacity: 0.5;
+  transition-duration: 500ms;
+}
+
 /*contact info*/
 .fa-envelope,
 .fa-rebel,
