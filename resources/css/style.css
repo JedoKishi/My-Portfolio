@@ -9,7 +9,9 @@ body{
 }
 /*navbar*/
 #navbarNavDropdown{
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*jumbotron*/
 .jumbotron{
@@ -26,7 +28,9 @@ body{
 
 #protfolio-img:hover{
   opacity: 0.5;
-  transition-duration: 500ms;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
 }
 
 /*contact info*/
@@ -42,7 +46,8 @@ body{
 .fa-github:hover,
 .fa-facebook:hover{
   color: gray;
-  transition-duration: 500ms;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
 }
 /*footer section*/
 footer{
@@ -50,6 +55,7 @@ footer{
   background-image: url(../images/pexels-photo-247676.jpeg);
   background-position: center;
   background-attachment: fixed;
+  padding: 32px;
   padding: 2rem;
 }
 
